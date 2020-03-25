@@ -1,0 +1,90 @@
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.register-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1 {
+    margin: 64px 0 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.register-container .content section p {
+    color: gray;
+}
+
+.register-container .content section a {
+    margin: 10px 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #E02041;
+
+    transition: all .4s;
+}
+
+ form {
+     width: 100%;
+     max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+ form input {
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 3px;
+    background: #e5e5e0;
+    margin: 5px 0;
+}
+
+ form input::placeholder {
+    opacity: .7;
+}
+
+form .input-group {
+    display: flex;
+    flex-direction: row;
+}
+
+form .input-group input + input {
+    margin-left: 8px;
+}
+
+ form button {
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    color: #fff;
+    background: #E02041;
+
+    transition: all .4s;
+}
+
+ form button:hover {
+    background: #060719;
+}
