@@ -1,7 +1,7 @@
 <div align="center">
     <img src="https://i.imgur.com/HL25fWP.png" alt="Be The Hero">
     <br />
-    <b>This is a project that I developed by practicing on omnistack 11</b>
+    <b>A project to help all types of NGOs</b>
 </div>
 
 ## Installation
@@ -15,6 +15,9 @@ Step 2 - Install the dependencies
 npm install
 ```
 Use this command to install all the dependencies
+
+## ScreenShots
+
 
 
 
